@@ -1,5 +1,9 @@
 { pkgs }: {
   deps = [
+    pkgs.sudo
+    pkgs.docker_compose
+    pkgs.docker_compose
+    pkgs.docker_compose
     pkgs.python310Full
     pkgs.replitPackages.prybar-python310
     pkgs.replitPackages.stderred
